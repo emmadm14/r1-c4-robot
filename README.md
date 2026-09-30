@@ -20,6 +20,7 @@ The objective is to progressively design, prototype and improve a functional ass
 - [Main Subsystems](#main-subsystems)
 - [Design and Manufacturing](#design-and-manufacturing)
 - [Documentation](#documentation)
+- [Project Structure](#project-structure)
 - [Technologies](#technologies)
 - [Current Development](#current-development)
 - [Authorship and Credits](#authorship-and-credits)
@@ -212,6 +213,53 @@ It includes:
 - [Project Cost Assessment](docs/cost-assessment/)
 - [Global Operating Algorithm](docs/operating-algorithm/)
 - [Electronic Architecture](docs/electronic-architecture/)
+
+---
+
+## Project Structure
+
+The repository is organised by subsystem and development area in order to clearly document the evolution of R1-C4.
+
+```text
+r1-c4-robot/
+├── README.md
+├── docs/
+│   ├── preliminary-research/
+│   ├── year-1-status/
+│   ├── cost-assessment/
+│   ├── operating-algorithm/
+│   └── electronic-architecture/
+├── 2-3-2-system/
+│   ├── mechanical/
+│   │   └── cad-parts/
+│   ├── images/
+│   │   ├── first-development-phase/
+│   │   └── second-development-phase/
+│   └── videos/
+│       └── second-development-phase/
+├── central-foot-lift/
+│   ├── mechanical/
+│   │   ├── assembly/
+│   │   ├── cad-parts/
+│   │   └── cad-animation/
+│   ├── images/
+│   │   └── first-development-phase/
+│   └── videos/
+│       └── first-development-phase/
+├── chassis/
+│   ├── mechanical/
+│   │   ├── assembly/
+│   │   └── cad-parts/
+│   └── images/
+│       └── first-development-phase/
+├── wheel-system/
+│   └── previous-version/
+│       ├── images/
+│       └── videos/
+└── head-turret/
+    └── videos/
+        └── first-development-phase/
+```
 
 ---
 
